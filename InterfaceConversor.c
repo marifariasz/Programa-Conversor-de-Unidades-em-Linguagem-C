@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "./potencia.h"
+#include "./velocidade.h"
 
 int main(){
     int option = 0;
@@ -28,7 +29,7 @@ int main(){
             /* code */
             break;
             case 4:
-            /* code */
+            converter_velocidade();
             break;
             case 5:
             converter_potencia();
