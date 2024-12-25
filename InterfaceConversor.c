@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "./potencia.h"
 #include "./velocidade.h"
+#include "./massa.h"
 
 int main(){
     int option = 0;
@@ -23,7 +24,7 @@ int main(){
             /* code */
             break;
             case 2:
-            /* code */
+            converter_massa();
             break;
             case 3:
             /* code */
