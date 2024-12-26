@@ -21,13 +21,13 @@ int main(){
 
         switch (option){
             case 1:
-            /* code */
+            converter_comprimento();
             break;
             case 2:
-            converter_massa();
+            conversordemassa();
             break;
             case 3:
-            /* code */
+            converter_temperatura();
             break;
             case 4:
             converter_velocidade();
@@ -36,10 +36,10 @@ int main(){
             converter_potencia();
             break;
             case 6:
-            /* code */
+            converter_area();
             break;
             case 7:
-            /* code */
+            converter_tempo();
             break;
             case 8:
             printf("\nEncerrando.\n");
