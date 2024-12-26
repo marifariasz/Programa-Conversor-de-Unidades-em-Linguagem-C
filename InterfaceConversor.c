@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "./potencia.h"
+#include "./velocidade.h"
+#include "./massa.h"
 
 int main(){
     int option = 0;
