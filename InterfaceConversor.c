@@ -1,5 +1,11 @@
 #include <stdio.h>
-#include "./potencia.h"
+#include "./biblioteca/potencia.h"
+#include "./biblioteca/comprimento.h"
+#include "./biblioteca/massa.h"
+#include "./biblioteca/temperatura.h"
+#include "./biblioteca/velocidade.h"
+#include "./biblioteca/area.h"
+#include "./biblioteca/tempo.h"
 
 int main(){
     int option = 0;
