@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-double converter_massa(){
+double converter_comprimento(){
 	short int unidadeEntrada;
 	short int unidadeSaida;
 	double valor;
 
     do{
-	    printf("\n\nConversor de Massa\n");
+	    printf("\n\nConversor de comprimento\n");
 	    printf("\nUnidades de entrada");
 	    printf("\n1. metro\n");
 	    printf("2. centimetro\n");
