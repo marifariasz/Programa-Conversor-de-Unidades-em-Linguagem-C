@@ -19,25 +19,25 @@ int main(){
 
         switch (option){
             case 1:
-            /* code */
+            converter_comprimento();
             break;
             case 2:
-            /* code */
+            conversordemassa();
             break;
             case 3:
-            /* code */
+            converter_temperatura();
             break;
             case 4:
-            /* code */
+            converter_velocidade();
             break;
             case 5:
             converter_potencia();
             break;
             case 6:
-            /* code */
+            converter_area();
             break;
             case 7:
-            /* code */
+            converter_tempo();
             break;
             case 8:
             printf("\nEncerrando.\n");
