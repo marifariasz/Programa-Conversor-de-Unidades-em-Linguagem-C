@@ -62,7 +62,7 @@ double converter_comprimento(){
 	    	if(unidadeSaida == 2)
 	    	    printf("%.3lf centimetros", valor/=10);
 	    	if(unidadeSaida == 3)
-	    	     printf("%.3lf milimetros", valor/=10);
+	    	     printf("%.3lf milimetros", valor);
 	    	break;
 
 	    default:
