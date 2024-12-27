@@ -33,7 +33,7 @@ double quilogramas_para_toneladas(double quilogramas)
     return quilogramas / 1000;
 }
 
-void conversao_massa()
+void converter_massa()
 {
     setlocale(LC_ALL, "Portuguese_Brazil");
     int opcao;
