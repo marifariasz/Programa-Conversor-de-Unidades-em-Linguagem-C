@@ -56,6 +56,9 @@ int main()
             converter_volume();
             break;
         case 9:
+            converter_unidade_memoria();
+            break;
+        case 10:
             printf("\nEncerrando.\n");
             break;
         default:
