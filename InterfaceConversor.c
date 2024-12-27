@@ -24,7 +24,7 @@ int main()
         printf("6. Unidades de area\n");
         printf("7. Unidades de tempo\n");
         printf("8. Unidades de volume\n");
-        printf("9. Unidades de volume\n");
+        printf("9. Unidades de memoria\n");
         printf("10. Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &option);
