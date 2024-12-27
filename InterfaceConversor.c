@@ -7,6 +7,8 @@
 #include "./biblioteca/area.h"
 #include "./biblioteca/tempo.h"
 #include "./biblioteca/volume.h"
+#include "./biblioteca/memoria.h"
+
 int main()
 {
     int option = 0;
@@ -22,7 +24,8 @@ int main()
         printf("6. Unidades de area\n");
         printf("7. Unidades de tempo\n");
         printf("8. Unidades de volume\n");
-        printf("9. Sair\n");
+        printf("9. Unidades de volume\n");
+        printf("10. Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &option);
 
@@ -53,6 +56,9 @@ int main()
             converter_volume();
             break;
         case 9:
+            converter_unidade_memoria();
+            break;
+        case 10:
             printf("\nEncerrando.\n");
             break;
         default:
