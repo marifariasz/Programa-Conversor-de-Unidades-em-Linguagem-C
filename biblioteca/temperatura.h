@@ -113,7 +113,7 @@ void exibirMenu() {
     printf("Digite o numero correspondente a escala: ");
 }
 
-int main() {
+void converter_temperatura() {
     int escolha1, escolha2;
     double temperatura, resultado;
 
