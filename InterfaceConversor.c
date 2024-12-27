@@ -7,9 +7,11 @@
 #include "./biblioteca/area.h"
 #include "./biblioteca/tempo.h"
 #include "./biblioteca/volume.h"
-int main(){
+int main()
+{
     int option = 0;
-    do {
+    do
+    {
         // Exibe o menu
         printf("\nMenu de Conversoes:\n");
         printf("1. Unidades de comprimento\n");
@@ -24,38 +26,39 @@ int main(){
         printf("Escolha uma opcao: ");
         scanf("%d", &option);
 
-        switch (option){
-            case 1:
+        switch (option)
+        {
+        case 1:
             converter_comprimento();
             break;
-            case 2:
-            conversordemassa();
+        case 2:
+            converter_massa();
             break;
-            case 3:
+        case 3:
             converter_temperatura();
             break;
-            case 4:
+        case 4:
             converter_velocidade();
             break;
-            case 5:
+        case 5:
             converter_potencia();
             break;
-            case 6:
+        case 6:
             converter_area();
             break;
-            case 7:
+        case 7:
             converter_tempo();
             break;
-            case 8:
+        case 8:
             converter_volume();
             break;
-            case 9:
+        case 9:
             printf("\nEncerrando.\n");
             break;
-            default:
+        default:
             printf("\nVoce digitou um numero invalido, tente novamente.\n");
             main();
             break;
         }
-    }while(option != 9);
+    } while (option != 9);
 }
